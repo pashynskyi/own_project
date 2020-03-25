@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    background: rgb(160,201,238);
+    background: linear-gradient(0deg, rgba(160,201,238,1) 0%, rgba(251,251,251,0.9508213141025641) 50%);
+}
+
+p, h1, h2, h3, h4, h5, h6, div {
+    margin: 0;
+}
+
+div.imgHolder {
+    min-height: 230px;
+    text-align: center;
+    position: relative;
+}
+
+div.imgHolder > img {
+    width: 80%;
+    max-width: 700px;
+}
+
+div.model-summary {
+    width: 25%;
+    max-width: 270px;
+    height: 260px;
+    padding: 0px 15px;
+    background-color: rgba(25, 170, 122, 0.25);
+    border-radius: 5px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+div.model-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: navy;
+    text-align: center;
+}
+
+div.model-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(165, 27, 27);
+}
+
+div.button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 5px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+    cursor: pointer;
+  }
+div.button:hover {
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+    color: blue;
+  }
+
+form {
+    width: 90%;
+    max-width: 1300px;
+    padding: 10px;
+    margin: 0 auto;
+    background: white;
+    border: 5px solid rgb(113, 182, 161);
+    border-radius: 5px;
+}
+
+div.row {
+    padding: 5px;
+    /* background: rgba(245, 125, 125, 0.479); */
+    display: flex;
+    justify-content: space-around;
+}
+
+div.col-1-of-3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+div.colorsSelector {
+    /* background: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.colorItem {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.colorBlue {
+    background: rgb(68, 114, 171);
+}
+
+div.colorSilver {
+    background: rgb(146, 146, 149);
+}
+
+div.colorRed {
+    background: rgb(175, 35, 35);
+}
+
+div.colorBlack {
+    background: black;
+}
+
+div.colorWhite{
+    background: rgb(205, 205, 205);
+}
+
+div.colorOrange {
+    background: rgb(196, 118, 54);
+}
+
+div.colorGray {
+    background: rgb(82, 82, 83);
+}
+
+
